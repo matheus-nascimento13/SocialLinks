@@ -1,0 +1,54 @@
+@import url(https://fonts.google.com/specimen/Inter );
+
+body{
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%) ;
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+}
+
+.avatar{
+    border-radius: 6em;
+    width: 140px;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+   
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 12%) ;
+    height: 600px;
+    width: 400px;
+    border-radius: 2em;
+}
+
+.boxGit, .boxLink, .boxIns, .boxFront{
+    width: 300px;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    border-radius: 0.5em; 
+}
+
+.textprofile{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
